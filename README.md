@@ -1,8 +1,9 @@
 # RA3online
 Red-Alert 3 Online Platform 
-### Languages
-nothing here.
-### Docs
+### Support Languages
+zh-CN
+
+### Links
 [Github Projects](https://github.com/MrBBBaiXue/RA3online/projects)
 
-[Translation Guide](https://github.com/MrBBBaiXue/RA3online/Wiki)
+[Github Wiki](https://github.com/MrBBBaiXue/RA3online/Wiki)
