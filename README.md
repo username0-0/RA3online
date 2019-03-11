@@ -6,4 +6,4 @@ zh-CN
 ### Links
 [Github Projects](https://github.com/MrBBBaiXue/RA3online/projects)
 
-[Github Wiki](https://github.com/MrBBBaiXue/RA3online/Wiki)
+[Github Wiki](https://github.com/MrBBBaiXue/RA3online/wiki)
