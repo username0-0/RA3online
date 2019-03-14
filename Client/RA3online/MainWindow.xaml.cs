@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System.Windows;
 
+//白学："大概就是在MainWindow.xaml.cs里调用这个DownloadFileByAria2，[创建一个线程]，想办法让[UI线程]和[这个task]通信得到[下载进度之类的信息]。"
 namespace RA3online
 {
     public partial class MainWindow : Window

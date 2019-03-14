@@ -13,7 +13,8 @@ namespace RA3online
         {
 
         //ToDo : async this class!
-            public static bool DownloadFileByAria2(string url, string strFileName)
+        //白学："大概就是在MainWindow.xaml.cs里调用这个DownloadFileByAria2，[创建一个线程]，想办法让[UI线程]和[这个task]通信得到[下载进度之类的信息]。"
+        public static bool DownloadFileByAria2(string url, string strFileName)
             {
                 var tool = "aria2c.exe";
                 var fi = new FileInfo(strFileName);
@@ -24,6 +25,7 @@ namespace RA3online
                 }
                 return File.Exists(strFileName) && new FileInfo(strFileName).Length > 0;
             }
+        //ShowInfo
             private static void ShowInfo(string url, string a)
             {
                 if (a == null) return;
@@ -43,6 +45,7 @@ namespace RA3online
                     Console.WriteLine(DateTime.Now.ToString().Replace("/", "-") + "    " + url + "    下载进度:" + rbraces1 + "%");
                 }
             }
+        //RedirectExcuteProcess
             private static void RedirectExcuteProcess(Process p, string exe, string arg, DataReceivedEventHandler output)
             {
                 p.StartInfo.FileName = exe;
